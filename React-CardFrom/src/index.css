@@ -30,29 +30,40 @@ body {
   margin-bottom: -130px;
   z-index: 1;
 }
-.card .card_holder, .card .expires {
+.card__left_card-holder, 
+.card__right_expires {
   color: rgb(160, 160, 160);
   font-size: 14px;
   margin-bottom: 0;
 }
-.card .full_name, .card .date {
+.card__left_full-name, 
+.card__right_date {
   margin-top: 0;
   font-size: 18px;
 }
-.card .top, .card .bot {
+.card__top,
+.card__bot {
   display: flex;
   justify-content: space-between;
 }
-.card .card_number {
+.card__card-number {
   margin: 28px 18px auto auto;
-  font-size: 28px;
-  letter-spacing: 0.12em;
   width: 100%;
   text-align: center;
+  font-size: 28px;
+  letter-spacing: 0.12em;
+}
+.card__top_bank {
+  width: 50px;
+  height: 40px;
+  background-image: url(./img/chip.png);
+  background-repeat: no-repeat;
+  background-size: 50px 40px;
+  margin-top: 16px;
 }
 
 /* Form styles */
-form {
+.form {
   display: flex;
   flex-direction: column;
   width: 500px;
@@ -65,7 +76,9 @@ label {
   font-size: 14px;
   color: #1a3b5d;
 }
-input, select, option {
+input, 
+select, 
+option {
   width: 100%;
   height: 50px;
   border-radius: 5px;
@@ -76,22 +89,22 @@ input, select, option {
   font-family: "Source Sans Pro", sans-serif;
   box-sizing: border-box;
 }
-.row {
+.form__row {
   display: flex;
 }
-.row .month{
+.form__row_month {
   flex-basis: 23%;
   margin-right: 4%;
 }
-.row .year{
+.form__row_year {
   margin-top: 28px;
   flex-basis: 23%;
   margin-right: auto;
 }
-.row .cvv{
+.form__row_cvv {
   flex-basis: 30%;
 }
-.b_submit {
+.form__submit-btn {
   height: 50px;
   background: #2364d2;
   border: none;
