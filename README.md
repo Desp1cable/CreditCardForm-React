@@ -8,7 +8,8 @@
 ---
 ## Technologies used:
 
-<img src="Images/react_logo.png" width="40" title="react"> 
+<img src="Images/react_logo.png" height="40" title="react">
+<img src="Images/inputMasks.png" height="40" title="inputMasks">
 
 ---
 
@@ -19,3 +20,5 @@ Browser that I use (Chrome), pushing a warning:
 
 But it's working Ok!
 </h4>
+
+---
